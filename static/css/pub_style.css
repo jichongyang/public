@@ -1,0 +1,269 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html{
+    width: 100%;
+/*     height:auto; */
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    font-family: Helvetica;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: #f2f2f2;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    font-family: Helvetica;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: #f2f2f2;
+   margin: 0 auto;
+   max-width: 640px;
+   /* height: 100%; */
+
+}
+h1, h2, h3, h4, h5, h6, input, button, ul, li, a, p, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+}
+
+img {
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+input,textarea{
+    border: 0;
+    -webkit-appearance: none;
+}
+button, input, a {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+@media screen and (max-width: 320px){
+    html{
+        font-size: 9px;
+    }
+}
+@media screen and (min-width: 321px)and (max-width: 375px){
+    html{
+        font-size:10px;
+    }
+}
+@media screen and (min-width:376px){
+    html{
+        font-size: 11px;
+    }
+}
+/*float*/
+.fLt {
+    float: left
+}
+
+.fRt {
+    float: right
+}
+
+/*fontsize*/
+.f21 {
+    font-size: 2.1rem;
+}
+.f20 {
+    font-size: 2rem;
+}
+.f19 {
+    font-size: 1.9rem;
+}
+.f18 {
+    font-size: 1.8rem;
+}
+
+.f17 {
+    font-size: 1.7rem;
+}
+
+.f16 {
+    font-size: 1.6rem;
+}
+
+.f15 {
+    font-size: 1.5rem;
+}
+
+.f14 {
+    font-size: 1.4rem;
+}
+
+.f13 {
+    font-size: 1.3rem;
+}
+
+.f12 {
+    font-size: 1.2rem;
+}
+
+.f11 {
+    font-size: 1.1rem;
+}
+
+.f10 {
+    font-size: 1rem;
+}
+
+.Fnormal {
+    font-weight: normal;
+}
+
+.Fbold {
+    font-weight: bold;
+}
+
+/*color*/
+.gray6 {
+    color: #999999;
+}
+
+.gray6 {
+    color: #666666;
+}
+
+.gray3 {
+    color: #333333;
+}
+.gray2 {
+    color: #222;
+}
+
+
+.gray94 {
+    color: #949494;
+}
+
+.gray5 {
+    color: #555555;
+}
+
+.gray9 {
+    color: #999999;
+}
+
+.gray3f {
+    color: #3f3f3f;
+}
+.grayb5{
+    color: #b5b5b5;
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+.border {
+    border: 1px solid rgba(203, 203, 203, .5);
+    border-radius: 2px;
+}
+
+
+
+/*省略号*/
+.hidden {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+/*居中*/
+.middle {
+    /*firefox*/
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /*safari.opera以及chrome*/
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    /*w3c*/
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+
+/*滚动条样式*/
+::-webkit-scrollbar {
+    width: 0;
+    height: 12px;
+    background: none;
+}
+
+::-webkit-scrollbar-button {
+    width: 4%;
+    background: none;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: none;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: none;
+}
+
+::-webkit-scrollbar-corner {
+    background: none;
+}
+
+::-webkit-resizer {
+    background: none;
+}
+
+@media screen and (min-width: 640px)  {
+    .topFix{
+        width:640px;
+        left:50%;
+        margin-left: -320px;
+    }
+    .btmFix{
+        width: 640px;
+        position: fixed;
+        left:50%;
+        margin-left: -320px;
+    }
+}
+
+
+
